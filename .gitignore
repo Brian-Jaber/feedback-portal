@@ -19,25 +19,37 @@
 /backend/log/
 /backend/logs/
 
-## React / Frontend
+## React / Frontend (Vite)
 /frontend/node_modules/
-/frontend/build/
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/*.local
 /frontend/.env.local
 /frontend/.env.development.local
 /frontend/.env.test.local
 /frontend/.env.production.local
 /frontend/.cache/
 /frontend/coverage/
-/frontend/npm-debug.log
-/frontend/yarn-error.log
-/frontend/.vscode/
+# Logs
+/frontend/logs/
+*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/lerna-debug.log*
+
+## Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 ## General
-.DS_Store
 Thumbs.db
 desktop.ini
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
