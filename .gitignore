@@ -48,7 +48,6 @@
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
 
 ## General
