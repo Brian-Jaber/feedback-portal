@@ -18,6 +18,7 @@
 /backend/*.jfm
 /backend/log/
 /backend/logs/
+/backend/.env
 
 ## React / Frontend (Vite)
 /frontend/node_modules/
